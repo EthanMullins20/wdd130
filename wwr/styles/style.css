@@ -20,6 +20,7 @@ nav a:hover {
 #background {
     height: 725px;
     background-color: #004643;
+    margin-bottom: 150px;
 }
 #hero-msg h1 {
     color: #250902;
@@ -59,6 +60,7 @@ header {
 }
 footer {
     background-color: #004643;
+    margin-top: 200px;
     
 }
 footer h3 {
@@ -110,6 +112,7 @@ footer .social img{
     background-color: #004643;
     line-height: 2em;
     padding: 35px;
+    margin-top: 150px;
 }
 .msg h2 {
     color: #FAF4D3;
@@ -147,4 +150,5 @@ footer .social img{
 }
 main section img {
     box-sizing: border-box;
+    margin-top:65px;
 }
