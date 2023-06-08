@@ -50,6 +50,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
+    background-color: #250902;
     color: #FAF4D3;
 }
 footer p {
