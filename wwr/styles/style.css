@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans&family=Raleway:ital@1&family=Rock+Salt&display=swap');
 h4 {
     color: #250902;
 }
 nav a {
-    text-align: center; 
-    background-color: #004643;
-    color: #250902;
     text-decoration: none;
+    color: #250902;
+    text-align: center;
+    background-color: #004643;
+    padding: 10px;
 }
 nav a:hover {
     background-color: #250902;
@@ -20,6 +22,7 @@ nav a:hover {
     background-color: #004643;
 }
 #hero-msg h1 {
+    color: #250902;
     text-align: center; 
 }
 #hero-msg h4 {
@@ -27,6 +30,12 @@ nav a:hover {
 }
 #hero-img {
     width: 100%;
+}
+#logo_link{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+    color: #fcfbfb;
 }
 .button-box {
     text-align: center; 
@@ -36,12 +45,21 @@ main section {
 }
 body {
     background-color: white;
+    font-family: 'Rock Salt', 'Arimo', 'Open Sans';
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin:0;
+    line-height: 4em;
 }
 header {
     background-color: #004643;
 }
 footer {
     background-color: #004643;
+    
 }
 footer h3 {
     color: #250902;
@@ -60,19 +78,29 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .book {
+    font-family: 'Rock Salt', 'Arimo' , 'Open Sans';
+    font-size: 18px;
     background-color: #004643;
     color: #250902;
     text-decoration: none;
+    padding: 15px;
+    line-height: 5em;
 }
 .book:hover {
     background-color: #250902;
     color: #FAF4D3;
 }
 .join {
+    font-family: 'Rock Salt', 'Arimo' , 'Open Sans';
+    font-size: 16px;
     background-color: #FAF4D3;
     color: #250902;
     text-decoration: none;
+    padding: 15px 30px;
 }
 .join:hover {
     background-color: #250902;
@@ -80,19 +108,43 @@ footer p a:hover {
 }
 .msg {
     background-color: #004643;
+    line-height: 2em;
+    padding: 35px;
 }
 .msg h2 {
     color: #FAF4D3;
+    line-height: 1em;
 }
 .msg p {
+    font-family: 'Rock Salt', 'Arimo' , 'Open Sans';
+    font-size: 1em;
     color: #FAF4D3;
+    padding-bottom: 15px;
+    line-height: 2em;
 }
 .home-title {
+    font-family: 'Rock Salt', 'Arimo' , 'Open Sans';
+    font-size: 2em;
     color: #FAF4D3;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
+}
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
