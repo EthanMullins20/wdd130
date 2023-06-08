@@ -3,12 +3,13 @@ h4 {
 }
 nav a {
     text-align: center; 
+    background-color: #004643;
     color: #250902;
     text-decoration: none;
 }
 nav a:hover {
     background-color: #250902;
-    color: #004643;
+    color: #FAF4D3;
 }
 #content {
     max-width: 1600px;
