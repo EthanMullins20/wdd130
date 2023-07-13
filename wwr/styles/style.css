@@ -259,6 +259,9 @@ h1 {
     padding-left: 120px;
     padding-right: 270px;
 }
+.details{
+    font-size:1.5em;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
