@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html" >
+                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="reservations.html">Page 02</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/hero.png" alt="People enjoying rafting">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Have an adventure</h1>
+                <h4>Make Memories with Dry Oar</h4>
+                <div class="button-box">
+                    <a class="book" href="reservations.html">Book Now</a>
+                </div>
+            </section>
+        </div>
+        </header>
+        <main class="non-centered">
+            <div class="cover-header"></div>
+                <section>
+                    <h2>The Details:</h2>
+                    <ul>
+                        <li>
+                            <label for="username">Your name:</label>
+                            <input required type="text" name="your_name" id="username" minlength="3"></li>
+                        <li>
+                            <label for="useremail">Your email:</label>
+                            <input required type="email" name="your_email" id="useremail"></li>
+                        <li>
+                            <label for="userphone">Your phone number:</label>
+                            <input required type="tel" name="your_phone" id="userphone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><span class="show-later"><br/></span> <label for="textable">Can we text this number?</label><input type="checkbox" name="text_able" id="textable"></li>
+                        <li>
+                            <label for="staylength">Length of stay:</label>
+                            <input required type="number" name="stay_length" id="staylength" value="1" min="1"> nights</li>
+                        <li>
+                            <label for="staystart">First day of stay:</label>
+                            <input required type="date" name="stay_start" id="staystart"></li>
+                        <li>
+                            <label for="guestnumber">Number of guests:</label>
+                            <input required type="number" name="guest_number" id="guestnumber" value="1" min="1" max="99"> people</li>
+                        <li>
+                            <label for="roomtype">Room type:</label>
+                            <select required name="room_type" id="roomtype">
+                                <option value="">Select a room type</option>
+                                <option value="Balcony Suite">None</option>
+                                <option value="Standard">Standard</option>
+                                <option value="Suite">Suite</option>
+                                <option value="Basic Balcony">Basic Balcony</option>
+                                <option value="Balcony Suite">Balcony Suite</option>
+                            </select> with
+                            <input type="number" name="bed_num" id="bednumber" value="1" min="1" max="5"> <label for="bednumber">beds</label></li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Payment:</h2>
+                    <ul>
+                        <li>
+                            <label for="cardtype">Card type:</label>
+                            <select required name="card_type" id="cardtype">
+                                <option value="">Select a card type</option>
+                                <option value="Visa">Visa</option>
+                                <option value="Credit">Credit</option>
+                                <option value="Debit">Debit</option>
+                                <option value="Gift Card">Gift Card</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="cardname">Name on card:</label>
+                            <input required type="text" name="name_on_card" id="cardname"></li>
+                        <li>
+                            <label for="cardnumber">Card number:</label>
+                            <input required type="text" name="card_number" id="cardnumber" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}"></li>
+                        <li>
+                            <label for="expiration">Expiration date:</label>
+                            <input required type="date" name="exp_date" id="expiration"></li>
+                        <li>
+                            <label for="pin">PIN:</label>
+                            <input required type="password" name="pin_number" id="pin" maxlength="4"></li>
+                    </ul>
+                    <input type="submit" value="Confirm and Pay">
+                </section>
+            </form>
+        </main>
+        <footer>
+            <p>Dry Oar &copy; 2023 Ethan Mullins</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+    </footer>
+</div> 
+</body>
+</html>
