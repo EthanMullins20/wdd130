@@ -16,10 +16,11 @@
 }
 
 nav{
+    background-color:#394053;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 1px;
     padding-left: 8%;
     padding-right: 8%;
 }
@@ -76,6 +77,13 @@ nav ul li a:hover{
     left: 8%;
     transform: translateY(-50%);
  }
+ .content-text h2{
+    color:#DC9E82;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 20px;
+ }
 
  h1{
     color: #DC9E82;
@@ -85,15 +93,18 @@ nav ul li a:hover{
 
 h3{
     color: #DC9E82;
+    letter-spacing: 1px;
+    line-height: 28px;
     font-size: 25px;
-    margin-left: 1%;
+    margin-bottom: 20px;
 }
 
 h4{
     color: #DC9E82;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 1%;
+    width:900px;
 }
 
 .about{
@@ -264,8 +275,8 @@ h5{
 footer{
     position: relative;
     width: 100%;
-    height: 400px;
-    background: #101010;
+    height: 300px;
+    background:#40531B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,8 +284,8 @@ footer{
 }
 
 footer p:nth-child(1){
-    font-size: 50px;
-    color: white;
+    font-size: 20px;
+    color:#DC9E82;
     margin-bottom: 10px;
     font-weight: bold;
 }
