@@ -181,7 +181,9 @@ button:hover{
     width: 100%;
     padding: 50px 0px;
     padding-left: 15%;
-    padding-right: 8%;
+    padding-right: 10%;
+    padding-bottom: 30%;
+
 }
 
 .box{
@@ -261,7 +263,7 @@ h5{
 
     list-style-type: none;
     display: inline-block;
-    padding: 5px 25px;
+    padding: 5px 35px;
 }
 .projects ul li img{
     width: 211px;
@@ -270,6 +272,14 @@ h5{
 .projects ul li img:hover{
     scale: 1.2;
     
+}
+.projects h4{
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 100%)
 }
 
 footer{
