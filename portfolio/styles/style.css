@@ -72,10 +72,14 @@ nav ul li a:hover{
 
  /*have to understand*/
  .content{
+    background-color: #394053;
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
  }
  .content-text h2{
     color:#DC9E82;
@@ -263,7 +267,7 @@ h5{
 
     list-style-type: none;
     display: inline-block;
-    padding: 5px 35px;
+    padding: 10px 65px;
 }
 .projects ul li img{
     width: 211px;
